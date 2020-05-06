@@ -1,0 +1,65 @@
+
+body{
+    background-color: #00BCD4;
+    font-family: 'Public Sans', sans-serif;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    max-width: 900px;
+}
+h1{
+    font-size: 78px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.button{
+    background: #E5F9FB;
+    color: #005D69;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 400px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px 0px #005D69;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: #005D69;
+    color: #E5F9FB;
+    box-shadow: 0px 3px 0px 0px #E5F9FB;
+}
+
+.formulario input[type="radio"] ,
+.formulario input[type="checkbox"]{
+    display: none;
+}
+
+.formulario .radio label{
+    color: #005D69;
+    background-color: #E5F9FB;
+    padding: 5px 15px;
+    margin: 5px;
+    display: inline-block;
+    box-shadow: 0px 3px 0px 0px #005D69;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.formulario .radio label:hover{
+    background: #005D69;
+    color: #E5F9FB;
+}
+
+.formulario input[type="radio"]:checked + label{
+    background: #005D69;
+    color: #E5F9FB;
+}
